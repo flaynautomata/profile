@@ -12,6 +12,11 @@ p {
   font-weight: 100;
 }
 
+a {
+  text-decoration: none;
+  color: #1A5F7A;
+}
+
 .card {
   text-align: center;
   padding: 20px;
@@ -23,6 +28,7 @@ p {
   display: flex;
   justify-content: center;
   border-radius: 4px;
+  align-items: center;
 }
 ul {
     list-style: none;
@@ -42,4 +48,74 @@ ul {
 .imagen-circle1{
   border-radius: 50px;
   text-align: center;
+}
+.btn-attack{
+  background-color: #27E1C1;
+    color: red;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+.btn-item{
+  background-color: #27E1C1;
+    color:  yellow;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.btn-defense{
+  background-color: #27E1C1;
+    color: blue;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+.btn-run{
+  background-color: #27E1C1;
+    color: purple;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.btn-attack:hover{
+  background-color: #1A5F7A;
+  color: #A5F1E9  ;
+  transition: 100ms;
+}
+
+.btn-defense:hover{
+  background-color: #1A5F7A;
+  color: #A5F1E9  ;
+  transition: 100ms;
+}
+
+.btn-item:hover{
+  background-color: #1A5F7A;
+  color: #A5F1E9  ;
+  transition: 100ms;
+}
+
+.btn-run:hover{
+  background-color: #1A5F7A;
+  color: #A5F1E9  ;
+  transition: 100ms;
+}
+.last_thing{
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: #1A5F7A
 }
