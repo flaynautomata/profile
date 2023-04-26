@@ -1,0 +1,45 @@
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 200; /* if you want the light version */
+
+}
+body {
+  background: #0EA293;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 100;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px;
+  background: #27E1C1;
+  border-radius: 4px;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+ul {
+    list-style: none;
+    border-radius: 4px;
+}
+
+.imagen-circle {
+  border-radius: 50%;
+
+}
+.stats{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.imagen-circle1{
+  border-radius: 50px;
+  text-align: center;
+}
